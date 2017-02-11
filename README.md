@@ -1,7 +1,22 @@
-# WAT
+# WAT [![Build Status](https://travis-ci.org/syzer/google-10000-english.svg?branch=master)](https://travis-ci.org/syzer/google-10000-english)
 Just a npm wrapper for:
 [https://github.com/first20hours/google-10000-english]()
 
+# Why
+
+These 10-20k words are most common.. so if you want ultra fast spellchecker.. look no further.
+
+# How
+
+```bash
+npm i --save word-list-google
+```
+
+```javascript
+var dictionary = require('word-list-google')
+var arrayOfWords = dictionary.englishUsaNoSwearsShort
+console.log(arrayOfWords.slice(100, 110))
+```
 
 About This Repo
 ===============
