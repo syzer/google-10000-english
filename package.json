@@ -1,0 +1,30 @@
+{
+  "name": "word-list-google",
+  "version": "1.0.0",
+  "description": "most common words according to google",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syzer/google-10000-english.git"
+  },
+  "keywords": [
+    "word",
+    "list",
+    "n-gram",
+    "google",
+    "word",
+    "list"
+  ],
+  "author": "Linguistic Data Consortium",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syzer/google-10000-english/issues"
+  },
+  "homepage": "https://github.com/syzer/google-10000-english#readme",
+  "devDependencies": {
+    "ava": "^0.18.1"
+  }
+}
